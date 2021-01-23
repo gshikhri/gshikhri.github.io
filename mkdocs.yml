@@ -1,0 +1,28 @@
+site_name: Shikhar Gupta
+theme:
+  name: material
+  language: en
+  palette:
+      scheme: default
+      primary: teal
+      accent: teal
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+markdown_extensions:
+  - toc:
+      permalink: ⚓︎
+  - meta
+copyright: "Copyright &copy; ShikharGupta"
+nav:
+  - 'Home': index.md
+  - 'Learn German with me': 'learning-german/learn-german-landing.md'
+  - 'Cricket bits': 'cricket-bits/cricket-bits-landing.md'
+  - 'Stories with data': 'data-stories/data-stories-landing.md'
+  - 'Personal finance':
+      First Blog: 'personal-finance/personal-finance-1.md'
+  - 'CV': 'about.md'
+  
